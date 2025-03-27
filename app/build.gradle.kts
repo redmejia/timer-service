@@ -41,6 +41,8 @@ android {
 
 dependencies {
 
+    implementation("androidx.core:core:1.12.0")
+
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
